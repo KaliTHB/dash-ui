@@ -49,8 +49,8 @@ class Grid:
                 ))
         self.children.append(html.Div(
             style={
-                "grid-column": "{:d} / span {:d}".format(col, width),
-                "grid-row": "{:d} / span {:d}".format(row, height)
+                "gridColumn": "{:d} / span {:d}".format(col, width),
+                "gridRow": "{:d} / span {:d}".format(row, height)
             },
             className="dui-grid-element " + element_class,
             children=element
